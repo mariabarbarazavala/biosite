@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>María Bárbara Zavala</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #fff;
+    }
+
+    /* Banner negro */
+    .banner {
+      background: #000;
+      height: 250px;
+      position: relative;
+    }
+
+    /* Foto de perfil estilo Twitter/X */
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      position: absolute;
+      left: 20px;
+      bottom: -70px; /* Mitad de la altura para que quede centrada en la línea inferior */
+    }
+
+    /* Contenedor de texto debajo de la foto */
+    .text-container {
+      margin-top: 90px; /* Ajusta la distancia del banner */
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .title {
+      font-size: 28px;
+      font-weight: bold;
+      color: #111;
+      margin: 0;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      color: #333;
+      font-family: 'UnifrakturCook', cursive;
+      margin: 5px 0 0 0;
+    }
+
+    /* Botones estilo BioSite */
+    .links {
+      max-width: 400px;
+      margin: 40px 20px 0 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .link-btn {
+      background: #000;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      text-align: center;
+      padding: 14px;
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: 0.3s;
+    }
+
+    .link-btn:hover {
+      opacity: 0.8;
+    }
+
+    .gothic {
+      font-family: 'UnifrakturCook', cursive;
+      font-size: 20px;
+    }
+
+  </style>
+  <!-- Fuentes -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Banner con foto tipo Twitter/X -->
+  <div class="banner">
+    <img class="profile-pic" src="https://i.postimg.cc/gj5sqnKL/Mar-a-Barbara-Zavala-20250822-131532-0001.png" alt="María Bárbara Zavala">
+  </div>
+
+  <!-- Nombre y subtítulo debajo de la foto -->
+  <div class="text-container">
+    <h1 class="title">María Bárbara Zavala</h1>
+    <h2 class="subtitle">Bárbara's Kingdom • Queen B</h2>
+  </div>
+
+  <!-- Links -->
+  <div class="links">
+    <!-- Google Drive en gótica -->
+    <a class="link-btn gothic" href="https://drive.google.com/drive/folders/1QrAq7zZlbDjuJ7dNFEKDwPhlTFAUiKB_">
+      Google Drive
+    </a>
+  </div>
+
+</body>
+</html> 
